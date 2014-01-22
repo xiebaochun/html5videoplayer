@@ -1,0 +1,59 @@
+body{
+	 background-color:#efefef;
+}
+#gameCanvas{
+	background-color:rgba(150,150,150,0.8);
+	margin:5px;
+	border-radius: 5px;
+}
+#arrow{
+	text-align: center;
+}
+#progressbar{
+    width: 980px;
+    display:block;
+	margin:5px;
+}
+.mainView{
+	background-color: rgba(200,200,200,0.5);
+	border:10px double #888;
+	border-radius:8px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 5px 5px 2px #333333
+}
+.left{
+	float: left;
+	display:inline;
+}
+#myVideo{
+	display:inline;
+	padding:5px;
+	float:right;
+}
+#filelist{
+	height:265px;
+	background-color: #333333;
+    border-radius: 5px 5px 5px 5px;
+    list-style-type: none;
+    margin: 5px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+   position: relative;
+    width: 290px;
+    z-index: 1;
+    overflow: auto;
+}
+#filelist li{
+	 color: #EEEEEE;
+    cursor: pointer;
+    margin: 0 0 5px 0px;
+}
+#filelist li.active {
+    font-weight: bold;
+    color:#229922;
+}
+#filelist li:hover{
+    font-weight: bold;
+}

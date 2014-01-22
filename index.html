@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link href="css/main.css" type="text/css" rel="stylesheet"></link>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script src="script/createjs-2013.09.25.min.js"></script>
+<script src="script/main01.js"></script>
+<script src="script/jquery-1.10.2.min.js"></script>
+<script src="script/jquery-ui-1.10.3.custom.js"></script>
+<script src="script/Html5-FileSystem-APIs.js"></script>
+<script src="script/update.js"></script>
+<script src="script/updateSpeed.js"></script>
+
+</head>
+<body onload="init();">
+<div class="mainView">
+
+  <div class="left"> 
+    <canvas id="gameCanvas" width="329px" height="180px"></canvas>
+    <ul id="filelist">
+    	<li videourl="videos/01.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>01.mp4</span>
+    	</li>
+    	<li videourl="videos/02.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>02.mp4</span>
+    	</li>
+    	<li videourl="videos/03.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>03.mp4</span>
+    	</li>
+    	<li videourl="videos/04.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>04.mp4</span>
+    	</li>
+    	<li videourl="videos/05.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>05.mp4</span>
+    	</li>
+    	<li videourl="videos/06.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>06.mp4</span>
+    	</li>
+    	<li videourl="videos/07.mp4">
+    	<img src="Images/video-icon.png">
+    	<span>07.mp4</span>
+    	</li>
+    </ul>  
+    
+  </div>
+<!-- <embed id="myVideo" src="http://player.youku.com/player.php/sid/XNTAwMjAwMjIw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed> -->
+<!-- <embed id="myVideo" src="http://vip.flashline.cn/flash/flashline/ca38cadfa34e600bb976156a49e6f0ab.swf"  width="480" height="400" AUTOSTART="false"></embed>
+ --><!-- <embed id="myVideo" src="flash/myFlash.swf"  width="480" height="400" AUTOSTART="false"></embed> -->
+  <video id="myVideo" src="videos/01.mp4" controls="controls"></video>
+
+  <div id="progressbar" ></div>
+
+</div>
+<p id="mouseposition"></p>
+<p id="gamestate"></p>
+<!-- <button id="startButton">start</button> -->
+<!-- <button id="reStartButton">Back</button> -->
+<!-- <button id="stop">stop</button> -->
+
+</body>
+</html>
